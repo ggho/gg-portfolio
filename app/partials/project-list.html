@@ -6,7 +6,12 @@
 	</div>
 	
 	<div class="row">
-		<div>Each project</div>
+		<div ng-repeat='project in projects | orderBy:orderProp'>
+			<a href="#/project/{{project.id}}">{{project.name}}</a>
+			
+			<div>{{project.desc}}</div>
+			
+		</div>
 			
 	</div>
 

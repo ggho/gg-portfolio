@@ -1,0 +1,27 @@
+[
+	{
+		"id": "styleadvisor",
+		"imageUrl" : "img/projects/styleadvisor/paper-prototype1.jpg",
+		"name" : "Style Advisor",
+		"desc": "A screen-based interactive system designed for clothes shopping experience.",
+		"tags": ["ux"],
+		"yyyymm": 201410
+	},
+
+	{
+		"id": "playfulcalibration",
+		"imageUrl" : "img/projects/playfulcalibration/poster.jpg",
+		"name" : "Playful calibration",
+		"desc": "Master thesis: Playful calibration for eye tracking system.",
+		"tags": ["design", "code", "research"],
+		"yyyymm": 201504
+	},
+	{
+		"id": "webgames",
+		"imageUrl" : "img/projects/webgames/thumbnail.png",
+		"name" : "Mini web games",
+		"desc": "Mini web games created for eye-tracking.",
+		"tags": ["design", "code"],
+		"yyyymm": 201511
+	}
+]
