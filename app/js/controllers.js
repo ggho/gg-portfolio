@@ -13,14 +13,22 @@ ggPortfoControllers.controller('ProjectListCtrl', ['$scope', '$http',
 		});
 		
 		$scope.orderProp = "-yyyymm"; //newest
+		$scope.filterProp = {};
+		
+		$scope.setFilterTag = function(tag) {
+			if(!tag){
+				$scope.filterProp = {};
+			}
+      $scope.filterProp.tags = tag;
+    };
 		
 
 
 	}]);
 
-ggPortfoControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams',
-	function($scope, $routeParams) {
-
-		$scope.projectId = $routeParams.projectId;
+ggPortfoControllers.controller('ProjectDetailCtrl', ['$scope', '$stateParams',
+	function($scope, $stateParams) {
+		
+		$scope.projectId = $stateParams.projectId;
 
 	}]);

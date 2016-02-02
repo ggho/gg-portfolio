@@ -28,3 +28,139 @@
   content: "";
   padding: 0;
 }
+
+
+/*core*/
+body{
+	font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	color: #717171;
+}
+
+@media (min-width: 1200px){
+	.container {
+		width: 970px; 
+	}
+}
+
+a{cursor:pointer;}
+
+header{
+	background-color: #03d4ad;
+}
+
+section#portfolio{
+	background-color: #F8FAF8;
+	padding: 0 0;
+}
+
+#portfolio .radio-menu{
+	padding: 20px 0;
+	text-align: center;
+
+}
+#portfolio .radio-menu .btn{
+	float: none;
+	display: inline-block;
+	padding: 10px 15px;
+	
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1em;
+	
+	text-decoration: underline;
+	text-transform: none;
+	color: #BFBFBF;	
+	font-weight: normal; 
+}
+
+#portfolio .radio-menu .btn.active, #portfolio .radio-menu .btn:active, #portfolio .radio-menu .btn.active:hover, #portfolio .radio-menu .btn.active:focus{
+	color:#03d4ad;
+	box-shadow: none;
+}
+#portfolio .radio-menu .btn:hover, .radio-menu .btn:focus {
+    /*text-decoration: underline;*/
+    /*background-color: transparent;*/
+		color:#717171;
+}
+
+/*
+#portfolio ul.nav{
+	text-align: center;
+}
+#portfolio ul.nav>li{
+	float: none;
+	display: inline-block;
+}
+.nav > li a{
+	text-decoration: underline;
+	text-transform: none;
+	color: #BFBFBF;	
+	font-weight: normal;
+}
+.nav > li.active > a, .nav > li.active > a:hover, .nav > li.active > a:focus{
+	color:#03d4ad;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: underline;
+    background-color: transparent;
+		color:#717171;
+}*/
+
+
+/*Fixed-aspect-ratio thumbnails*/
+.fixed-ratio-thumbnail{
+	position: relative;
+}
+.thumbnail-1-to-1{
+	padding-bottom: 100%;
+}
+.thumbnail-5-to-4{
+	padding-bottom: 80%;
+}
+.thumbnail-4-to-3{
+	padding-bottom: 75%;
+}
+.thumbnail-3-to-2{
+	padding-bottom: 67%;
+}
+
+.thumbnail-img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+/*project list specific*/
+.portfolio-item .portfolio-link{
+	color: #717171;
+	text-decoration: none;
+	background-color: #FFF;
+	border-bottom: 5px solid #03d4ad;
+}
+
+.portfolio-item .portfolio-link:hover{
+	opacity: 0.6;
+}
+
+.thumbnail-caption{
+	padding: 0 10px 10px 10px;
+
+}
+
+.item-title{
+	/*text-transform: uppercase;*/
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.2em;
+	padding: 10px 0;
+	color: #03d4ad; /*#13d9b4;*/
+}
+
+.item-description{
+
+}

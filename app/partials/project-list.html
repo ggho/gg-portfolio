@@ -1,18 +1,63 @@
-
-
-<div class="container">
-	<div class="row">
-		Hi, my name is Gigi. ...
-	</div>
-	
-	<div class="row">
-		<div ng-repeat='project in projects | orderBy:orderProp'>
-			<a href="#/project/{{project.id}}">{{project.name}}</a>
-			
-			<div>{{project.desc}}</div>
-			
+<!-- Header -->
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<img class="img-responsive" src="img/profile.png" alt="">
+				<div class="intro-text">
+					<span class="name">Gigi Ho</span>
+					<hr class="star-light">
+					<span class="skills">Short bio: Full-stack Developer | UX Designer </span>
+				</div>
+			</div>
 		</div>
-			
 	</div>
+</header>
 
-</div>
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+	   <div class="btn-group radio-menu center-block">
+        <label class="btn" ng-model="filterProp.tags" uib-btn-radio="">All</label>
+        <label class="btn" ng-model="filterProp.tags" uib-btn-radio="'ux'">UX</label>
+        <label class="btn" ng-model="filterProp.tags" uib-btn-radio="'code'">Code</label>
+				<label class="btn" ng-model="filterProp.tags" uib-btn-radio="'research'">Research</label>
+    </div>
+
+	<div class="container">
+		<!--		<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>Portfolio</h2>
+						<hr class="star-primary"'
+					</div>
+				</div>-->
+
+		<div class="row" style="position: relative;">
+			<div ng-repeat="project in projects | filter: filterProp :true | orderBy:orderProp" class="col-sm-4 portfolio-item">
+				<a href="#/project/{{project.id}}" class="portfolio-link" data-toggle="modal">
+
+					<!--					<div class="caption">
+											<div class="caption-content">
+												<i class="fa fa-search-plus fa-3x"></i>
+											</div>
+										</div>-->
+
+					<div class="fixed-ratio-thumbnail thumbnail-4-to-3">
+						<div class="thumbnail-img" style="background-image: url({{project.imageUrl}})"></div>
+					</div>
+
+					<div class="thumbnail-caption">
+						<div class="item-title">{{project.name}}</div>
+						<div class="item-description">{{project.desc}}</div>
+					</div>
+
+				</a>
+
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- We'll also add some navigation: -->
+    <a ui-sref="project-list">project-list</a>
+    <a ui-sref="project-detail.details" project-id="webgames">project-detail</a>

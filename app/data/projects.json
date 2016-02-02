@@ -5,14 +5,29 @@
 		"name" : "Style Advisor",
 		"desc": "A screen-based interactive system designed for clothes shopping experience.",
 		"tags": ["ux"],
-		"yyyymm": 201410
+		"yyyymm": 201310
 	},
-
+	{
+		"id": "yammer",
+		"imageUrl" : "img/projects/yammer/thumbnail.png",
+		"name" : "Usability evaluation on Yammer",
+		"desc": "An usability evaluation on the enterprise social website - Yammer",
+		"tags": ["ux", "evaluation", "research"],
+		"yyyymm": 201311
+	},
+		{
+		"id": "poppibook",
+		"imageUrl" : "img/projects/poppibook/thumbnail.png",
+		"name" : "PoppiBook",
+		"desc": "A platform designed for parents to create unique pop-up books for their young children.",
+		"tags": ["innovation", "ux", "code"],
+		"yyyymm": 201311
+	},
 	{
 		"id": "playfulcalibration",
-		"imageUrl" : "img/projects/playfulcalibration/poster.jpg",
+		"imageUrl" : "img/projects/playfulcalibration/eye-tracking.jpg",
 		"name" : "Playful calibration",
-		"desc": "Master thesis: Playful calibration for eye tracking system.",
+		"desc": "Master thesis at Tobii AB: Playful calibration for eye tracking system.",
 		"tags": ["design", "code", "research"],
 		"yyyymm": 201504
 	},

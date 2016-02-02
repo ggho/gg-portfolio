@@ -1,0 +1,43 @@
+/* 
+    Document   : animations
+    Created on : Feb 1, 2016, 3:44:08 PM
+    Author     : gigiho
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.portfolio-item.ng-enter,
+.portfolio-item.ng-leave,
+.portfolio-item.ng-move {
+  -webkit-transition: 0.5s linear all;
+  -moz-transition: 0.5s linear all;
+  -o-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+}
+
+.portfolio-item.ng-enter,
+.portfolio-item.ng-move {
+  opacity: 0;
+  /*height: 0;*/
+  overflow: hidden;
+	position: absolute;
+}
+
+.portfolio-item.ng-move.ng-move-active,
+.portfolio-item.ng-enter.ng-enter-active {
+  opacity: 1;
+  /*height: 120px;*/
+	position:relative;
+}
+
+.portfolio-item.ng-leave {
+  opacity: 1;
+  overflow: hidden;
+}
+
+.portfolio-item.ng-leave.ng-leave-active {
+  opacity: 0;
+  /*height: 0;*/
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
