@@ -33,10 +33,14 @@
 /*core*/
 body{
 	font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	color: #717171;
 }
 
+h1, h2, h3, h4, h5, h6 {
+     text-transform: none; 
+}
+		
 @media (min-width: 1200px){
 	.container {
 		width: 970px; 
@@ -52,6 +56,7 @@ header{
 section#portfolio{
 	background-color: #F8FAF8;
 	padding: 0 0;
+	font-size: 16px;
 }
 
 #portfolio .radio-menu{
@@ -123,8 +128,14 @@ section#portfolio{
 .thumbnail-3-to-2{
 	padding-bottom: 67%;
 }
+.thumbnail-3-to-1{
+	padding-bottom: 33%;
+}
+.thumbnail-4-to-1{
+	padding-bottom: 25%;
+}
 
-.thumbnail-img{
+.img-as-bg{
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -135,6 +146,11 @@ section#portfolio{
 	background-size: cover;
 	background-position: center center;
 }
+
+.img-as-bg-top{
+	background-position: center 0;
+}
+
 
 /*project list specific*/
 .portfolio-item .portfolio-link{
@@ -164,3 +180,5 @@ section#portfolio{
 .item-description{
 
 }
+
+/*Summary view*/

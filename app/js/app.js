@@ -9,55 +9,50 @@ var ggPortfoApp = angular.module('myApp', [
 	'myApp.version',
 	'ggPorfoControllers'
 ]);
-//				config(['$routeProvider', function($routeProvider) {
-//		$routeProvider.
-//						when('/home', {
-//			templateUrl: 'partials/project-list.html',
-//			controller: 'ProjectListCtrl'
-//		}).
-//						when('/projects', {
-//			templateUrl: 'partials/project-list.html',
-//			controller: 'ProjectListCtrl'
-//		}).
-//						when('/project/:projectId', {
-//			templateUrl: 'partials/project-detail.html',
-//			controller: 'ProjectDetailCtrl'
-//		}).
-//						otherwise({redirectTo: '/home'});
-//	}]).
-
 
 ggPortfoApp.config(function($stateProvider, $urlRouterProvider) {
-		//
-		// For any unmatched url, redirect to /state1
-		$urlRouterProvider.otherwise("/home");
-		//
-		// Now set up the states
-		$stateProvider
-						.state('home', {
-			url: "/home",
-			templateUrl: "partials/project-list.html",
-			controller: 'ProjectListCtrl'
-		})
-						.state('project-list', {
-			url: "/projects",
-			templateUrl: 'partials/project-list.html',
-			controller: 'ProjectListCtrl'
-		})
-						.state('project-detail', {
-			url: "/project",
-			templateUrl: 'partials/project-detail.html',
-			controller: 'ProjectDetailCtrl'
-		})
-						.state('project-detail.details', {
-			url: "/:projectId",
-			templateUrl: function($stateParams) {
-				console.log($stateParams);
-				return 'partials/projects/' + $stateParams.projectId + '.html';
-			}, //'partials/projects/:projectId.html',
-			controller: 'ProjectDetailCtrl'
-		})
-		;
+	//
+	// For any unmatched url, redirect to /state1
+	$urlRouterProvider.otherwise("/home");
+	//
+	// Now set up the states
+	$stateProvider
+					.state('home', {
+		url: "/home",
+		templateUrl: "partials/project-list.html",
+		controller: 'ProjectListCtrl'
+	})
+					.state('project-list', {
+		url: "/projects",
+		templateUrl: 'partials/project-list.html',
+		controller: 'ProjectListCtrl'
+	})
+					.state('project-list.summary', {
+		url: "/:projectId",
+		templateUrl: 'partials/project-summary.html',
+		controller: 'ProjectSummaryCtrl'
+	})
+					.state('project-detail', {
+		url: "/project",
+		templateUrl: 'partials/project-detail.html'
+	})
+					.state('project-detail.content', {
+		url: "/:projectId",
+		views: {
+//			'summary': {
+//				templateUrl: 'partials/project-detail.summary.html',
+//				controller: 'ProjectDetailCtrl'
+//			},
+			'details': {
+				templateUrl: function($stateParams) {
+					return 'partials/projects/' + $stateParams.projectId + '.html';
+				}, //'partials/projects/:projectId.html',
+				controller: 'ProjectDetailCtrl'
 
-	});
+			}
+		}
+	})
+					;
+
+});
 

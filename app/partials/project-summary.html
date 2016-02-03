@@ -1,0 +1,28 @@
+
+
+
+<div class="container">
+
+	<div class="row">
+		<div class="col-lg-12 thumbnail-4-to-1">
+				<div class="img-as-bg img-as-bg-top"  style="background-image: url({{project.wallPhotoUrl}})"></div>	
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+
+			<h2>{{project.name}}</h2>
+
+			<p ng-bind-html="project.description"></p>
+
+			<div><strong>Time:</strong> {{project.startDate|date:'yyyy.M'}} - {{project.endDate|date:'yyyy.M'}} ({{project.duration}})</div>
+			<div><strong>Type:</strong><span ng-bind-html="project.type"></span></div>
+			<div><strong>Role:</strong><span ng-bind-html="project.role"></span></div>
+			<div><strong>Key methods:</strong><span ng-bind-html="project.methods"></span></div>
+
+
+
+		</div>
+	</div>
+
+</div>

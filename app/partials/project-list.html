@@ -14,6 +14,11 @@
 	</div>
 </header>
 
+<section id="summary">
+	<div ui-view></div>
+	
+</section>
+
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
 	   <div class="btn-group radio-menu center-block">
@@ -33,7 +38,7 @@
 
 		<div class="row" style="position: relative;">
 			<div ng-repeat="project in projects | filter: filterProp :true | orderBy:orderProp" class="col-sm-4 portfolio-item">
-				<a href="#/project/{{project.id}}" class="portfolio-link" data-toggle="modal">
+				<a  href="#/projects/{{project.id}}" class="portfolio-link" data-toggle="modal">
 
 					<!--					<div class="caption">
 											<div class="caption-content">
@@ -42,7 +47,7 @@
 										</div>-->
 
 					<div class="fixed-ratio-thumbnail thumbnail-4-to-3">
-						<div class="thumbnail-img" style="background-image: url({{project.imageUrl}})"></div>
+						<div class="img-as-bg" style="background-image: url({{project.imageUrl}})"></div>
 					</div>
 
 					<div class="thumbnail-caption">
@@ -57,7 +62,3 @@
 		</div>
 	</div>
 </section>
-
-<!-- We'll also add some navigation: -->
-    <a ui-sref="project-list">project-list</a>
-    <a ui-sref="project-detail.details" project-id="webgames">project-detail</a>

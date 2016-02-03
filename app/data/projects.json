@@ -1,42 +1,89 @@
 [
 	{
 		"id": "styleadvisor",
-		"imageUrl" : "img/projects/styleadvisor/paper-prototype1.jpg",
-		"name" : "Style Advisor",
+		"imageUrl": "img/projects/styleadvisor/paper-prototype1.jpg",
+		"name": "Style Advisor",
 		"desc": "A screen-based interactive system designed for clothes shopping experience.",
 		"tags": ["ux"],
-		"yyyymm": 201310
+		"yyyymm": 201310,
+		
+		"wallPhotoUrl": "img/projects/styleadvisor/digital-prototype.png",
+		"description": "This was a four-day project in which we were required to design a screen-based interative system for clothes shopping targetted at bankers. One of our ideas was an in-store large-screen style advisor which provides advises and information of clothing matching for busy young professionals. Bankers working in nearby banks were interviewed. Two rounds of usability testing using different paper prototypes were carried out with the target users, and a more high-fi interactive prototype was built using powerpoint based on the testing results. The powerpoint prototype was then tested iteratively with potential users and modification was made accordingly, suggestions were also made for future changes.",
+		"startDate": "2013-10-21",
+		"endDate": "2013-10-24",
+		"duration": "4 days",
+		"type": "Group coursework project of Introduction to HCI at KTH",
+		"role": "Member in a design team of five",
+		"methods": "Interview, rapid paper prototyping, cooperative evaluation",
+		"collaborators": "Arindra, Panagiota, Simon, Sujith and Weiwei"
 	},
 	{
 		"id": "yammer",
-		"imageUrl" : "img/projects/yammer/thumbnail.png",
-		"name" : "Usability evaluation on Yammer",
+		"imageUrl": "img/projects/yammer/thumbnail.png",
+		"name": "Usability evaluation on Yammer",
 		"desc": "An usability evaluation on the enterprise social website - Yammer",
 		"tags": ["ux", "evaluation", "research"],
-		"yyyymm": 201311
+		"yyyymm": 201311,
+		
+		"wallPhotoUrl": "img/projects/yammer/wallphoto.jpg",
+		"description": "This project evaluated the usability of the Yammer website based on users' satisfaction, efficiency and effectiveness. The variables investigated during the study were error rate, task completion and task completion time. The evaluation was a validation test performed upon two user groups: the novice and the expert users, who were asked to complete five tasks. The T-model observation method was used during the test, complemented by a pre-test background questionnaire and a post-test semi-structured interview. The test took place in a controlled usability lab with the help of the Morae tracking system. The results showed that the participants faced difficulties in completing more advanced tasks in the system. Based on our findings, we came up with recommendations of relabelling, increasing visibility, avoiding creeping featurism and reorganising the information structure.",
+		"startDate": "2013-11-1",
+		"endDate": "2013-12-31",
+		"duration": "2 months",
+		"type": "Group coursework project of <i>Evaluation in HCI</i> at KTH",
+		"role": "Responsible for test design, test moderator / operator / observer, quantitative result analysis",
+		"methods": "Usability test in a controlled lab, validation test with preset benchmark",
+		"collaborators": "Arindra, Irene, Panagiota and Weiwei"
 	},
-		{
+	{
 		"id": "poppibook",
-		"imageUrl" : "img/projects/poppibook/thumbnail.png",
-		"name" : "PoppiBook",
+		"imageUrl": "img/projects/poppibook/thumbnail.png",
+		"name": "PoppiBook",
 		"desc": "A platform designed for parents to create unique pop-up books for their young children.",
 		"tags": ["innovation", "ux", "code"],
-		"yyyymm": 201311
+		"yyyymm": 201311,
+		
+		"wallPhotoUrl": "img/projects/poppibook/PoppiBook Howto.png",
+		"description": "<p>PoppiBook is a platform that allows parents to design personalised pop-up books for their young children. Not only creating the story, parents and children can also build the storybook together by assembling the physical components. It enables parents to have quality time with their children by creating story and doing the handicraft together.</p><p>In this startup project we took an iterative approach in which we validated our assumptions each week by interviews and develop our ideas and designs iteratively. 20+ customers were interviewed throughout the process. A <a>working prototype</a>, or a minimum viable product (MVP), was built and tested on users.</p>",
+		"startDate": "2014-01-1",
+		"endDate": "2014-05-31",
+		"duration": "5 months",
+		"type": "Group coursework project of <i>Business Development Lab</i> and <i>Interactive Prototyping</i> at KTH",
+		"role": "Responsible for ideation, business development, design and front-end implementation",
+		"methods": "Customer development, business model canvas, user research, user interviews, web development (MVC), cooperative testing"
 	},
 	{
 		"id": "playfulcalibration",
-		"imageUrl" : "img/projects/playfulcalibration/eye-tracking.jpg",
-		"name" : "Playful calibration",
+		"imageUrl": "img/projects/playfulcalibration/eye-tracking.jpg",
+		"name": "Playful calibration",
 		"desc": "Master thesis at Tobii AB: Playful calibration for eye tracking system.",
 		"tags": ["design", "code", "research"],
-		"yyyymm": 201504
+		"yyyymm": 201504,
+		
+		"wallPhotoUrl": "img/projects/playfulcalibration/poster.jpg",
+		"description": "Eye-tracking calibration usually requires users to focus on several points on screen and let eye-tracker to adapt the variance across different eyes. This process is not too long but is not so engaging, and even challenging for special users like young children or cognitively disabled. This project intended to explore and apply playful elements to the calibration process to make it more engaging, and eventually improve calibration quality in general. The whole design process was covered from understanding, to ideation, prototyping and a final evaluation performed on 24 young children. Beginning with discussing an anatomy of calibration in theory, the thesis concluded with practical discussions regarding the feasibility and directions of applying playful elements to calibration.",
+		"startDate": "2015-04-1",
+		"endDate": "2015-10-31",
+		"duration": "7 months",
+		"type": "Individual master's thesis project at @tobii and @tuberlin",
+		"role": "Researher",
+		"methods": "HCI research, eye-tracking technology, user-centered design, explorative evaluation, assessment evaluation (qualitative and quantitative)"
 	},
 	{
 		"id": "webgames",
-		"imageUrl" : "img/projects/webgames/thumbnail.png",
-		"name" : "Mini web games",
+		"imageUrl": "img/projects/webgames/thumbnail.png",
+		"name": "Mini web games",
 		"desc": "Mini web games created for eye-tracking.",
 		"tags": ["design", "code"],
-		"yyyymm": 201511
+		"yyyymm": 201511,
+		
+		"wallPhotoUrl": "img/projects/webgames/tobii-web-games.png",
+		"description": "This is a very rapid web development project being done within only two weeks. The outcome is three mini games used for marketing purpose to give new eye-tracking users a taste of eye-tracking experience (by using eye-tracker to control mouse cursor). From gaining requirements, interface and visual design to coding, deployment and testing, all work was handled individually by myself with colloboration with the marketing team, UX designer and product owner in the company. The games were tested stable on major browsers which can be found at: <a>http://tobii-dynavox-christmas-games.com/</a> .",
+		"startDate": "2015-11-16",
+		"endDate": "2015-11-27",
+		"duration": "2 weeks",
+		"type": "Short-term working contract at Tobii Dynavox",
+		"role": "Web developer / designer",
+		"methods": "Web front-end development (HTML5, CSS3, jQuery, JavaScript), rapid design and development"
 	}
 ]
