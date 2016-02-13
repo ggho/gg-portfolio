@@ -26,6 +26,7 @@ ggPortfoApp.config(function($stateProvider, $urlRouterProvider) {
 		url: "/projects",
 		templateUrl: 'partials/project-list.html',
 		controller: 'ProjectListCtrl'
+		
 	})
 					.state('project-list.summary', {
 		url: "/:projectId",
@@ -33,6 +34,7 @@ ggPortfoApp.config(function($stateProvider, $urlRouterProvider) {
 		controller: 'ProjectSummaryCtrl'
 	})
 					.state('project-detail', {
+		abstract: true,
 		url: "/project",
 		templateUrl: 'partials/project-detail.html'
 	})

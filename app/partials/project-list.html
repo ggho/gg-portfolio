@@ -2,12 +2,13 @@
 <header>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12">
-				<img class="img-responsive" src="img/profile.png" alt="">
+			
+			<div class="col-lg-8 col-lg-offset-2">
+				<img class="img-responsive profile-pic" src="img/profile.png" alt="">
 				<div class="intro-text">
-					<span class="name">Gigi Ho</span>
-					<hr class="star-light">
-					<span class="skills">Short bio: Full-stack Developer | UX Designer </span>
+					<!--<span class="name">Gigi Ho</span>-->
+					<!--<hr class="star-light">-->
+					<span class="skills">Hi! My name is Gigi. Here you can find a showcase of my recent work as a developer, an UX designer and a HCI researcher. Thanks for visiting!</span>
 				</div>
 			</div>
 		</div>
@@ -29,23 +30,10 @@
     </div>
 
 	<div class="container">
-		<!--		<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2>Portfolio</h2>
-						<hr class="star-primary"'
-					</div>
-				</div>-->
-
 		<div class="row" style="position: relative;">
 			<div ng-repeat="project in projects | filter: filterProp :true | orderBy:orderProp" class="col-sm-4 portfolio-item">
-				<a  href="#/projects/{{project.id}}" class="portfolio-link" data-toggle="modal">
-
-					<!--					<div class="caption">
-											<div class="caption-content">
-												<i class="fa fa-search-plus fa-3x"></i>
-											</div>
-										</div>-->
-
+				<a href="#/projects/{{project.id}}" class="portfolio-link" data-toggle="modal">
+					
 					<div class="fixed-ratio-thumbnail thumbnail-4-to-3">
 						<div class="img-as-bg" style="background-image: url({{project.imageUrl}})"></div>
 					</div>

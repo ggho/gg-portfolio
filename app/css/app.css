@@ -36,10 +36,6 @@ body{
 	font-size: 20px;
 	color: #717171;
 }
-
-h1, h2, h3, h4, h5, h6 {
-     text-transform: none; 
-}
 		
 @media (min-width: 1200px){
 	.container {
@@ -49,13 +45,40 @@ h1, h2, h3, h4, h5, h6 {
 
 a{cursor:pointer;}
 
-header{
+
+
+header, footer{
 	background-color: #03d4ad;
+}
+
+footer{
+	padding: 14px 0;
+}
+
+footer p{
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+.profile-pic{
+	max-width: 200px;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    color: #03d4ad;
+}
+
+section#summary>div>.container{
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
 section#portfolio{
 	background-color: #F8FAF8;
-	padding: 0 0;
+	padding: 0 0 40px 0;
 	font-size: 16px;
 }
 
@@ -147,8 +170,9 @@ section#portfolio{
 	background-position: center center;
 }
 
-.img-as-bg-top{
-	background-position: center 0;
+.wall-photo{
+	background-position: center center;
+	opacity: 0.8;
 }
 
 
