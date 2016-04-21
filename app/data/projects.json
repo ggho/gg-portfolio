@@ -3,7 +3,7 @@
 		"id": "gps",
 		"imageUrl": "img/projects/gps/thumbnail.png",
 		"name": "GPS Explorer",
-		"desc": "A GPS tracking system for one to manage fleets of vehincles.",
+		"desc": "A GPS tracking system for one to manage fleets of vehicles.",
 		"tags": ["code"],
 		
 		"wallPhotoUrl": "img/projects/gps/wallphoto.png",
@@ -76,7 +76,7 @@
 		"tags": ["design", "code", "research"],
 		
 		"wallPhotoUrl": "img/projects/playfulcalibration/poster.jpg",
-		"description": "Eye-tracking calibration usually requires users to focus on several points on screen and let eye-tracker adapt the variance across different eyes. This process is not too long but is not so engaging, and even challenging for special users like young children or cognitively disabled. This project intended to explore and apply playful elements to the calibration process to make it more engaging, and eventually improve calibration quality in general. The whole design process was covered from understanding, to ideation, prototyping and a final evaluation. The outcomes of the project included working prototypes (eye-tracking enabled) of two proposed calibration methods, which were evaluated against the exisiting calibration on 24 young children (2-5y). ",
+		"description": "Eye-tracking calibration usually requires users to focus on several points on screen and let eye-tracker adapt the variance across different eyes. This process is not too long but is not so engaging, and even challenging for special users like young children or cognitively disabled. This project intended to explore and apply playful elements to the calibration process to make it more engaging, and eventually improve calibration quality in general. The whole design process was covered from understanding, to ideation, prototyping and a final evaluation. The outcomes of the project included working prototypes (eye-tracking enabled) of two proposed calibration methods, which were evaluated against the exisiting calibration on 24 young children (2-5y). The result of the evaluation indicated that one of the proposed methods showed a comparable good performance as the Tobii version with a more generally-accepted compliance level.",
 		"startDate": "2015-04-01",
 		"endDate": "2015-10-31",
 		"duration": "7 months",
@@ -96,8 +96,8 @@
 		"startDate": "2015-11-16",
 		"endDate": "2015-11-27",
 		"duration": "2 weeks",
-		"type": "Short-term working contract at <a href='http://www.tobiidynavox.com/' target='_blank'>Tobii Dynavox</a>",
-		"role": "Web developer / designer",
+		"type": "Short-term consultancy contract at <a href='http://www.tobiidynavox.com/' target='_blank'>Tobii Dynavox</a>",
+		"role": "Full-stack developer",
 		"methods": "Web front-end development (HTML5, CSS3, jQuery, JavaScript), rapid design and development"
 	}
 ]
