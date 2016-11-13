@@ -5,7 +5,7 @@
 		"name": "GPS Explorer",
 		"desc": "A GPS tracking system for one to manage fleets of vehicles.",
 		"tags": ["code"],
-		
+
 		"wallPhotoUrl": "img/projects/gps/wallphoto.png",
 		"description": "GPS Explorer is a web system for user to manage and monitor his fleet of vehicles with GPS devices installed. Current, as well as old, traces of each vehicle could be shown on the map. The map was also equipped with other basic map functions like zooming, measuring distance, multiple map views, etc. While the map pages are the core function of the web system, I was reponsible for and also successfully implemented all required frontend functions of them. ",
 		"startDate": "2011-01-01",
@@ -15,7 +15,7 @@
 		"role": "Lead front-end developer, reponsible for core functions e.g. map pages",
 		"methods": "HTML, JavaScript, JQuery, CSS, OpenLayers",
 		"collaborators": ""
-		
+
 	},
 	{
 		"id": "styleadvisor",
@@ -23,7 +23,7 @@
 		"name": "Style Advisor",
 		"desc": "A screen-based interactive system designed for clothes shopping experience.",
 		"tags": ["ux"],
-		
+
 		"wallPhotoUrl": "img/projects/styleadvisor/digital-prototype.png",
 		"description": "This was a four-day project in which we were required to design a screen-based interative system for clothes shopping targetted at bankers. One of our ideas was an in-store large-screen style advisor which provides advises and information of clothing matching for busy young professionals. Bankers working in nearby banks were interviewed. Two rounds of usability testing using different paper prototypes were carried out with the target users, and a more high-fi interactive prototype was built using powerpoint based on the testing results. The powerpoint prototype was then tested iteratively with potential users and modification was made accordingly, suggestions were also made for future changes.",
 		"startDate": "2013-10-21",
@@ -40,7 +40,7 @@
 		"name": "Usability evaluation on Yammer",
 		"desc": "An usability evaluation on the enterprise social website - Yammer",
 		"tags": ["ux", "evaluation", "research"],
-		
+
 		"wallPhotoUrl": "img/projects/yammer/wallphoto.jpg",
 		"description": "This project evaluated the usability of the Yammer website based on users' satisfaction, efficiency and effectiveness. The variables investigated during the study were error rate, task completion and task completion time. The evaluation was a validation test performed upon two user groups: the novice and the expert users, who were asked to complete five tasks. The T-model observation method was used during the test, complemented by a pre-test background questionnaire and a post-test semi-structured interview. The test took place in a controlled usability lab with the help of the Morae tracking system. The results showed that the participants faced difficulties in completing more advanced tasks in the system. Based on our findings, we came up with recommendations of relabelling, increasing visibility, avoiding creeping featurism and reorganising the information structure.",
 		"startDate": "2013-11-01",
@@ -57,7 +57,7 @@
 		"name": "PoppiBook",
 		"desc": "A platform designed for parents to create unique pop-up books for their young children.",
 		"tags": ["innovation", "ux", "code"],
-		
+
 		"subtitle": "Write, build and read your unique pop-up storybook with your child",
 		"wallPhotoUrl": "img/projects/poppibook/PoppiBookHowto.png",
 		"description": "<p>PoppiBook is a platform that allows parents to design personalised pop-up books for their young children. Not only creating the story, parents and children can also build the storybook together by assembling the physical components. It enables parents to have quality time with their children by creating story and doing the handicraft together.</p><p>In this startup project we took an iterative approach in which we validated our assumptions each week by interviews and developed our ideas and designs iteratively. 20+ customers were interviewed throughout the process. A <a href='http://weiwei-zhang.me/site/poppibook/index.html' target='_blank'>working prototype</a>, or a minimum viable product (MVP), was built and tested on users.</p>",
@@ -73,8 +73,8 @@
 		"imageUrl": "img/projects/playfulcalibration/eye-tracking.jpg",
 		"name": "Playful calibration",
 		"desc": "Master thesis at Tobii AB: Playful calibration for eye tracking system.",
-		"tags": ["design", "code", "research"],
-		
+		"tags": ["ux", "code", "research"],
+
 		"wallPhotoUrl": "img/projects/playfulcalibration/poster.jpg",
 		"description": "Eye-tracking calibration usually requires users to focus on several points on screen and let eye-tracker adapt the variance across different eyes. This process is not too long but is not so engaging, and even challenging for special users like young children or cognitively disabled. This project intended to explore and apply playful elements to the calibration process to make it more engaging, and eventually improve calibration quality in general. The whole design process was covered from understanding, to ideation, prototyping and a final evaluation. The outcomes of the project included working prototypes (eye-tracking enabled) of two proposed calibration methods, which were evaluated against the exisiting calibration on 24 young children (2-5y). The result of the evaluation indicated that one of the proposed methods showed a comparable good performance as the Tobii version with a more generally-accepted compliance level.",
 		"startDate": "2015-04-01",
@@ -90,7 +90,7 @@
 		"name": "Mini web games",
 		"desc": "Mini web games created for eye-tracking.",
 		"tags": ["design", "code"],
-		
+
 		"wallPhotoUrl": "img/projects/webgames/tobii-web-games.png",
 		"description": "This is a very rapid web development project being done within only two weeks. The outcome is three mini games used for marketing purpose to give new eye-tracking users a taste of eye-tracking experience (by using eye-tracker to control mouse cursor). From gaining requirements, interface and visual design to coding, deployment and testing, all work was handled individually by myself with collaboration with the marketing team, UX designer and product owner in the company. The games were tested stable on major browsers which can be found  <a href='http://tobii-dynavox-christmas-games.com/' target='_blank'>here</a>.",
 		"startDate": "2015-11-16",
@@ -99,5 +99,21 @@
 		"type": "Short-term consultancy contract at <a href='http://www.tobiidynavox.com/' target='_blank'>Tobii Dynavox</a>",
 		"role": "Full-stack developer",
 		"methods": "Web front-end development (HTML5, CSS3, jQuery, JavaScript), rapid design and development"
+	},
+	{
+		"id": "eyetracking-app",
+		"imageUrl": "img/projects/eyetracking-app/thumbnail.png",
+		"name": "Eye-tracking kiosk app",
+		"desc": "Eye-tracking kiosk app designed for Tom Tits museum",
+		"tags": ["ux", "design", "code", "evaluation"],
+
+		"wallPhotoUrl": "img/projects/eyetracking-app/game.png",
+		"description": "This is an app that is designed to demonstrate eye-tracking functions at <a href='http://www.tomtit.se/' target='_blank'>Tom Tits Experiment</a> or any other similar exihibit settings. The aim is to give users a first-time experience with eye tracking through mini games. The demonstrated eyetracking functions include, detecting user presence, tracking eye position, calibration and tracking eye gaze.",
+		"startDate": "2016-02-01",
+		"endDate": "2016-05-30",
+		"duration": "4 months",
+		"type": "Short-term consultancy contract at <a href='http://www.tobiidynavox.com/' target='_blank'>Tobii Dynavox</a>",
+		"role": "Designer and developer",
+		"methods": "Game design, game development (HTML5 game engine), on-site usability evaluation"
 	}
 ]
