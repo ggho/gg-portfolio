@@ -108,12 +108,12 @@
 		"tags": ["ux", "design", "code", "evaluation"],
 
 		"wallPhotoUrl": "img/projects/eyetracking-app/game.png",
-		"description": "This is an app that is designed to demonstrate eye-tracking functions at <a href='http://www.tomtit.se/' target='_blank'>Tom Tits Experiment</a> or any other similar exihibit settings. The aim is to give users a first-time experience with eye tracking through mini games. The demonstrated eyetracking functions include, detecting user presence, tracking eye position, calibration and tracking eye gaze.",
+		"description": "<p>This is a standalone eye-tracking software that is designed to demonstrate eye-tracking functions in an exhibit context, e.g. museums, conferences, exhibitions, which is currently being displayed at <a href='http://www.tomtit.se/' target='_blank'>Tom Tits Experiment</a>. The aim is to give users a first-time experience with eye tracking through mini games. The demonstrated eyetracking functions include, detecting user presence, tracking eye position and eye gaze. I was reponsible for the whole process of design, development and evaluation. A demo video of the app can be found <a href='https://vimeo.com/168202537' target='_blank'>here</a>.</p><p>The app was tested on-site (at Tom Tits) with 20 participants (13 children and 7 adults). The results were positive as the majority of the participants could complete the whole experience without any guidance, where only 3 (out of 20) who were aged 5 or below failed to complete mainly because they could not find a good position in front of the screen. Positive reactions were observed from most of the participants. The results were very satisfying overall with a few usability problems identified to be improved.",
 		"startDate": "2016-02-01",
 		"endDate": "2016-05-30",
 		"duration": "4 months",
 		"type": "Short-term consultancy contract at <a href='http://www.tobiidynavox.com/' target='_blank'>Tobii Dynavox</a>",
 		"role": "Designer and developer",
-		"methods": "Game design, game development (HTML5 game engine), on-site usability evaluation"
+		"methods": "Game design, game development (TypeScript, HTML5, C#), iterative design, usability evaluation"
 	}
 ]
