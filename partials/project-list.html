@@ -30,10 +30,10 @@
     </div>
 
 	<div class="container">
-		<div class="row" style="position: relative;">
+		<div class="row portfolio-list">
 			<div ng-repeat="project in projects | filter: filterProp :true | orderBy:orderProp" class="col-sm-4 portfolio-item">
 				<a href="#/projects/{{project.id}}" class="portfolio-link" data-toggle="modal">
-					
+
 					<div class="fixed-ratio-thumbnail thumbnail-4-to-3">
 						<div class="img-as-bg" style="background-image: url({{project.imageUrl}})"></div>
 					</div>

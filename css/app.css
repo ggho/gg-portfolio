@@ -177,6 +177,12 @@ section#portfolio{
 
 
 /*project list specific*/
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .portfolio-item .portfolio-link{
 	color: #717171;
 	text-decoration: none;
